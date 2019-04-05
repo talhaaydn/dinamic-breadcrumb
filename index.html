@@ -8,34 +8,37 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <title>Architicket Breadcrumb</title>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dinamic Breadcrumb</title>
   </head>
   <body>
 
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb" id="planBreadcrumb">
+                    
             </ol>
         </nav>
 
 
-        <div class="dropdown mt-5">
+        <div class="dropdown mt-2">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Zemin Kat
             </button>
             <div class="dropdown-menu" id="planSelectMenu">                
                 <ul id="planSelectMenuLi">
                     <a class="dropdown-item" href="#" id="headTitle">Zemin Kat</a>
-                    <li><a class="dropdown-item childTitle" href="#">Mimari</a></li>
-                    <li><a class="dropdown-item childTitle" href="#">Tesisat</a></li>
-                    <li><a class="dropdown-item childTitle" href="#">Isıtma</a></li>                    
+                    <li><a class="dropdown-item" href="#">Mimari</a></li>
+                    <li><a class="dropdown-item" href="#">Tesisat</a></li>
+                    <li><a class="dropdown-item" href="#">Isıtma</a></li>                    
                 </ul>
                 
                 <ul id="planSelectMenuLi">
                     <a class="dropdown-item" href="#" id="headTitle">1.Kat</a>
-                    <li><a class="dropdown-item childTitle" href="#">Mimari</a></li>
-                    <li><a class="dropdown-item childTitle" href="#">Tesisat</a></li>
-                    <li><a class="dropdown-item childTitle" href="#">Isıtma</a></li>                    
+                    <li><a class="dropdown-item" href="#">Mimari</a></li>
+                    <li><a class="dropdown-item" href="#">Tesisat</a></li>
+                    <li><a class="dropdown-item" href="#">Isıtma</a></li>                    
                 </ul>
             </div>
         </div>

@@ -1,0 +1,11 @@
+.dropdown-item{
+    padding: 0px !important;
+}
+ul#planSelectMenuLi{
+    margin: 0 !important;
+    padding-left: 20px !important;
+}
+ul#planSelectMenuLi li{
+    list-style-type: circle;
+    margin-left: 30px;
+}
